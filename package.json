@@ -1,0 +1,29 @@
+{
+  "name": "sideproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bogenwan/learn-vuejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bogenwan/learn-vuejs/issues"
+  },
+  "homepage": "https://github.com/bogenwan/learn-vuejs#readme",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "body-parser": "^1.16.1",
+    "bootstrap": "^3.3.7",
+    "cors": "^2.8.1",
+    "express": "^4.14.1",
+    "vue": "^2.1.10",
+    "vue-resource": "^1.2.0"
+  }
+}
